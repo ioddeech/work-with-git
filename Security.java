@@ -5,7 +5,7 @@ public class Security {
         if (code == 1234) {
             System.out.println("Проход открыт.");
         } else {
-            System.out.println("Неверный пароль.");
+            System.out.println("Неверный код доступа.");
         }
     }
 }
