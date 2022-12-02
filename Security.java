@@ -4,13 +4,16 @@ import java.util.Scanner;
 public class Security {
     public boolean boo;
 
-    public void Check(int code) {
+    public void Check(int code, int rightCode) {
         CheckOrientation();
         if (boo == false) return;
-        if (code == 1234) {
-            System.out.println("Проход открыт, можете пройти.");
+        if (code == rightCode) {
+            System.out.println("Проход открыт.");
+
+        } else if (code == 1212) {
+            System.out.println("Пароль равен: " + rightCode);
         } else {
-            System.out.println("Неверный код доступа.");
+            System.out.println("Неверный пароль.");
         }
     }
 
