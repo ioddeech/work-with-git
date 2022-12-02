@@ -4,7 +4,6 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) {
         System.out.println("Приветствуем вас!" + "\n" +
                 "Сразу сообщаем, что будет вопрос интимного характера ;)");
@@ -14,6 +13,9 @@ public class Main {
             int value = new Scanner(System.in).nextInt();
             Security security = new Security();
             security.Check(value, value2);
+            if (security.exit == true) {
+                break;
+            }
         }
     }
 }
