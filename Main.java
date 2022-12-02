@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("Приветствуем вас!");
         int value2 = new Random().nextInt(10000);
         while (true) {
             System.out.println("Введите пароль для входа в систему.");

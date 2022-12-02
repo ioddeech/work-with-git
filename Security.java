@@ -19,7 +19,7 @@ public class Security {
 
     public boolean CheckOrientation() {
         System.out.println("Вы гей?");
-        System.out.println("1. Yes" + "\n" +
+        System.out.println("1. Yes)))0))000)" + "\n" +
                 "2. Нет");
         int thb = new Scanner(System.in).nextInt();
         boo = true;
