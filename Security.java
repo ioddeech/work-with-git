@@ -41,7 +41,6 @@ public class Security {
                 return boo = false;
             } else {
                 System.out.println("Введено некорректное значение.");
-                continue;
             }
         }
         return boo = true;
