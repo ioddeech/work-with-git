@@ -10,7 +10,7 @@ public class Main {
                 "\n" + "Простите.");
         int value2 = new Random().nextInt(10000);
         while (true) {
-            System.out.println("Введите пароль для входа в систему.");
+            System.out.println("Введите код для входа в систему.");
             int value = new Scanner(System.in).nextInt();
             Security security = new Security();
             security.Check(value, value2);
